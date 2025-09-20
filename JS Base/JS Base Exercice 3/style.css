@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#carrecontainer {
+  width: 410px;
+  height: 410px;
+}
+ul {
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+}
+li {
+  list-style: none;
+  height: 200px;
+  width: 200px;
+  background-color: darkolivegreen;
+}
+.clicked {
+  background-color: crimson;
+  transform: scale(0.9);
+  animation: appear 1s;
+}
+@keyframes appear {
+  from {
+    transform: scale(0.9) rotate(360deg);
+  }
+  to {
+    transform: scale(0.9) rotate(0deg);
+  }
+}

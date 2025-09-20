@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.quotecellmodele {
+  display: none;
+}
+.quotecell {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
+}
+.favoris {
+  border: 1px solid black;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  align-self: center;
+}
+
+.favoris.active {
+  color: gold;
+  background-color: aquamarine;
+}
