@@ -63,5 +63,3 @@ document.querySelectorAll(".favoris").forEach((pf, index) => {
   });
 });
 
-//********************  TESTS / DÉBOGAGE  ********************************************
-console.log("Tableau des boutons favoris :", favTab);
