@@ -16,7 +16,7 @@ Object.entries(quotes).forEach(([auteur, citation]) => {
   // Élément auteur
   const auteurEl = document.createElement("p");
   auteurEl.classList.add("auteur");
-  auteurEl.textContent = auteur;
+  auteurEl.textContent = auteur + " :";
 
   // Élément citation
   const citationEl = document.createElement("p");
@@ -62,4 +62,5 @@ document.querySelectorAll(".favoris").forEach((pf, index) => {
     }
   });
 });
+
 
